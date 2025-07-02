@@ -1,14 +1,11 @@
-import './App.css'
+import HomePage from './pages/HomePage'
 
 function App() {
-
   return (
-    <>
-      <h1 class="text-3xl text-blue-500 font-bold underline">
-        Hello world!
-      </h1>
-    </>
-  )
+    <div className="min-h-screen bg-gray-100">
+      <HomePage />
+    </div>
+  );
 }
 
-export default App
+export default App;
