@@ -5,7 +5,7 @@ const Header = () => {
  
 
   return (
-    <nav className="bg-[var(--primary)]  w-[100vw] h-[12vh] top-0 fixed">
+    <nav className="bg-[var(--primary)]  w-[100vw] h-[12vh] top-0 fixed z-100">
       <div className=" mx-auto px-4 py-1 flex justify-between items-center">
      
         <div className=" w-[50vw] flex justify-center items-center ">
