@@ -1,9 +1,13 @@
-import Section from '../components/Section'
 
+import Hero from '../components/Hero';
+import Deboucher from '../components/Debouche';
+import Domaine from '../components/Domaine';
 export default function HomePage() {
   return (
-    <main className="flex flex-col gap-8 p-8">
-      <Section title="Welcome to the University" content="This is a simple section to start the homepage." />
+    <main className="flex flex-col gap-8">
+      <Hero/>
+      <Deboucher/>
+      <Domaine/>
     </main>
   );
 }
