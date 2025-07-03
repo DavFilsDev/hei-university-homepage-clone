@@ -2,11 +2,11 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#001948] text-gray-300 pt-10">
+    <footer className="bg-[var(--primary)] text-gray-300 pt-10">
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo + Description */}
         <div>
-          <div className="text-yellow-400 text-3xl font-bold mb-4">HEI</div>
+          <div className="text-[var(--secondary)] text-3xl font-bold mb-4">HEI</div>
           <p className="text-sm">
             Formation habilitée par l’État suivant le système LMD
           </p>
@@ -27,7 +27,7 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-bold mb-2">Navigation</h4>
           <ul className="space-y-1">
-            <li><a href="#" className="text-yellow-400 hover:underline">Accueil</a></li>
+            <li><a href="#" className="text-[var(--secondary)] hover:underline">Accueil</a></li>
             <li><a href="#" className="hover:text-white">Actualités</a></li>
             <li><a href="#" className="hover:text-white">Bourse d’études</a></li>
             <li><a href="#" className="hover:text-white">Inscription</a></li>
@@ -38,13 +38,13 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-bold mb-2">Médias sociaux</h4>
           <div className="flex space-x-3 mt-2">
-            <a href="#" className="bg-yellow-400 text-[#001948] rounded-full p-2 hover:bg-yellow-500 transition">
+            <a href="#" className="bg-[var(--primary)] text-[var(--secondary)] rounded-full p-2">
               <FaFacebookF />
             </a>
-            <a href="#" className="bg-yellow-400 text-[#001948] rounded-full p-2 hover:bg-yellow-500 transition">
+            <a href="#" className="bg-[var(--primary) text-[var(--secondary)] rounded-full p-2">
               <FaLinkedinIn />
             </a>
-            <a href="#" className="bg-yellow-400 text-[#001948] rounded-full p-2 hover:bg-yellow-500 transition">
+            <a href="#" className="bg-[var(--primary) text-[var(--secondary)] rounded-full p-2">
               <FaInstagram />
             </a>
           </div>
