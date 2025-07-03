@@ -6,7 +6,7 @@ const Deboucher = () => {
 
   return (
   <>
-  <div className='flex flex-row  m-auto  bg-white text-[#001948] justify-center items-center py-[4rem]'>
+  <div className='flex flex-row  m-auto  text-[var(--primary)] justify-center items-center py-[4rem]'>
     <div className='flex flex-col gap-y-5 w-[30vw] h-[35vh] '>
         <h2 className='text-[40px] font-bold'>Quelques débouchés</h2>
         <p >
