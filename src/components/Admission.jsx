@@ -17,8 +17,8 @@ const Admission = () => {
             niveau Terminale D.
           </p>
         </div>
-        <div className=" flex flex-row   w-[63vw]  pb-[2rem] bg-gradient-to-r from-[#ffe4b3] to-[var(--secondary)]">
-          <div className=" h-[30vh] w-[18vw] flex flex-col justify-center pl-[2rem] pr-[25rem] pb-[5vh]">
+        <div className=" flex flex-row   w-[63vw]  pb-[2rem] to-[var(--secondary)]">
+          <div className=" bg-gradient-to-r from-[#ffe4b3] to-[#fcdaa7] h-[30vh] w-[18vw] flex flex-col justify-center pl-[2rem] pr-[25rem] pb-[5vh]">
             <p className=" text-6xl text-white font-bold">01</p>
             <div className="flex flex-row w-[19vw] justify-center items-center gap-[2rem] ">
               <p className="   text-justify text-[var(--primary)] text-[18px] h-[10vh] ">
@@ -30,7 +30,7 @@ const Admission = () => {
               </div>
             </div>
           </div>
-          <div className="h-[30vh] w-[18vw] flex flex-col justify-center pl-[2rem] pr-[25rem] pb-[5vh]">
+          <div className="bg-gradient-to-r from-[#f5bc66] to-[#f7d39e] h-[30vh] w-[18vw] flex flex-col justify-center pl-[2rem] pr-[25rem] pb-[5vh]">
             <p className=" text-6xl font-bold text-white">02</p>
             <div className="flex flex-row w-[19vw] justify-center items-center gap-[2rem] ">
               <p className="   text-justify text-[var(--primary)] text-[18px] ">
@@ -43,7 +43,7 @@ const Admission = () => {
               </div>
             </div>
           </div>
-            <div className=" h-[30vh] w-[18vw] flex flex-col justify-center pl-[2rem] pr-[25rem] pb-[5vh]">
+            <div className="bg-gradient-to-r from-[#f5c366] to-[#ecb664] h-[30vh] w-[18vw] flex flex-col justify-center pl-[2rem] pr-[25rem] pb-[5vh]">
             <p className=" text-6xl font-bold text-white">03</p>
             <div className="flex w-[19vw] gap-[2rem] ">
               <p className=" h-[12vh]  text-justify text-[var(--primary)] text-[18px] ">
