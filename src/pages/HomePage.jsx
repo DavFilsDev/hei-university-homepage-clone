@@ -4,6 +4,7 @@ import Domaine from '../components/Domaine';
 import Admission from '../components/Admission';
 import Apropos from '../components/Apropos';
 import Paterns from '../components/Paterns';
+import TechSection from '../components/TechSection';
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Deboucher/>
       <Domaine/>
       <Admission/>
+      <TechSection />
       <Paterns />
     </main>
   );
