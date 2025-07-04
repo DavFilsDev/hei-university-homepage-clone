@@ -5,6 +5,7 @@ import Admission from '../components/Admission';
 import Apropos from '../components/Apropos';
 import Paterns from '../components/Paterns';
 import TechSection from '../components/TechSection';
+import ProgrammeSection from '../components/ProgrammeSection';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Deboucher/>
       <Domaine/>
       <Admission/>
+      <ProgrammeSection />
       <TechSection />
       <Paterns />
     </main>
