@@ -1,12 +1,89 @@
-# React + Vite
+# HEI University Homepage Clone 🏫
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React + Vite** based clone of the HEI University homepage.  
+It's an educational project aiming to help students learn and practice **React**, **Vite**, and **Tailwind CSS**, while improving their teamwork on GitHub.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🛠️ Heroicons & React Icons
+- 📦 Node.js & NPM
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+```
+
+src/
+├── assets/        → Static images and icons
+├── components/    → Reusable UI components
+├── pages/         → App pages (Homepage, etc.)
+├── App.jsx        → Main app component
+├── index.css      → Global styles and TailwindCSS
+└── main.jsx       → Entry point
+
+````
+
+---
+
+## 🎨 Color Theme
+
+| Element          | Color                |
+|------------------|----------------------|
+| Primary color    | `#001948`            |
+| Secondary color  | `#FCAF3B`            |
+
+---
+
+## 🔧 Setup & Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/DavFilsDev/hei-university-homepage-clone.git
+   cd hei-university-homepage-clone
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   App will be available at: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🤝 Contributors
+
+* [@DavidFils](https://github.com/DavFilsDev)
+* [@Asmine](https://github.com/AsmineRazafiarivelo1402)
+
+---
+
+## 🛡️ License
+
+This project is for **educational purposes only**.
+All rights to the original HEI University homepage belong to their respective owners.
+
+---
+
+## 📑 Project goals
+
+✅ Practice collaborative work with Git and GitHub
+✅ Learn React basics & best practices
+✅ Build reusable components with Tailwind CSS
+✅ Improve project structure and teamwork workflow
+
+---
