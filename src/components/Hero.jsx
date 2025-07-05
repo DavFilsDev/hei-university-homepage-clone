@@ -24,7 +24,6 @@ const slides = [
 const Hero = () => {
   const [index, setIndex] = useState(0);
 
-  // Auto défilement toutes les 2s
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % slides.length);
@@ -57,7 +56,7 @@ const Hero = () => {
           <FontAwesomeIcon icon={faChevronRight} />
         </button>
 
-        <h1 className="text-center text-[60px] font-bold">
+        <h1 className="font-garamond text-center text-[60px] font-bold">
           Haute École d'Informatique
         </h1>
 

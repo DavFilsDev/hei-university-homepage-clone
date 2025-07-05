@@ -25,7 +25,7 @@ export default function Partners() {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-[var(--primary)] mb-4">Nos partenaires</h2>
+        <h2 className="font-garamond text-[40px] font-extrabold text-[var(--primary)] mb-4">Nos partenaires</h2>
         <p className="text-[var(--primary)] mb-10 max-w-3xl mx-auto">
           L’employabilité de nos étudiants se base sur la pertinence de notre programme pédagogique
           et de la composition de notre corps enseignant mais aussi du soutien et la collaboration

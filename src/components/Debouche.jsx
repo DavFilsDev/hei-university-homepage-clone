@@ -5,7 +5,7 @@ const Deboucher = () => {
   <>
   <div className='flex flex-row  m-auto  text-[var(--primary)] justify-center items-center py-[4rem]'>
     <div className='flex flex-col gap-y-5 w-[30vw] h-[35vh] '>
-        <h2 className='text-[40px] font-bold'>Quelques débouchés</h2>
+        <h2 className='font-garamond text-[40px] font-extrabold'>Quelques débouchés</h2>
         <p >
             Formez-vous à une panoplie de métiers du numérique avec nous et venez acquérir les fondements de la programmation (qui vous servira pour les différents métiers) ! Ce sont des métiers porteurs, des métiers du présent, des métiers du futur…
         </p>
