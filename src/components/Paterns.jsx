@@ -25,13 +25,13 @@ export default function Partners() {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-[#001948] mb-4">Nos partenaires</h2>
-        <p className="text-gray-700 mb-10 max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold text-[var(--primary)] mb-4">Nos partenaires</h2>
+        <p className="text-[var(--primary)] mb-10 max-w-3xl mx-auto">
           L’employabilité de nos étudiants se base sur la pertinence de notre programme pédagogique
           et de la composition de notre corps enseignant mais aussi du soutien et la collaboration
           des entreprises partenaires.
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 items-center justify-items-center">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-10 items-center justify-items-center max-w-5xl mx-auto">
           {partners.map((partner) => (
             <a
               key={partner.name}
@@ -42,7 +42,7 @@ export default function Partners() {
               <img
                 src={partner.logo}
                 alt={partner.name}
-                className="h-12 md:h-16"
+                className="h-8 md:h-14"
               />
             </a>
           ))}

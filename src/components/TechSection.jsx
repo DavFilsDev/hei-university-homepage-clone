@@ -30,10 +30,10 @@ export default function TechSection() {
   return (
     <section className="bg-gray-100 py-16 px-6 text-[var(--primary)] max-w-4xl mx-auto">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-primary mb-4">
+        <h2 className="text-3xl font-bold text-[var(--primary)] mb-4">
           Les technos et langages utilisées
         </h2>
-        <p className="max-w-4xl mx-auto text-sm">
+        <p className="max-w-4xl mx-auto text-sm text-[var(--primary)]">
           Nos étudiants sont formés à l’utilisation et à la maîtrise des langages de programmation Java et JavaScript. Ces deux langages occupent une place de choix dans le domaine du développement logiciel et du web, offrant une polyvalence et une robustesse appréciées par les développeurs à travers le monde.
         </p>
       </div>
@@ -49,7 +49,7 @@ export default function TechSection() {
           </div>
         ))}
       </div>
-      <div className="mt-2.5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 justify-items-center">
+      <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 justify-items-center">
         {technologiesDown.map((tech) => (
           <div key={tech.name} className="flex flex-col items-center space-y-2">
             <img
