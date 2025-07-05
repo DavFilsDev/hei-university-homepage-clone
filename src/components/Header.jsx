@@ -1,9 +1,5 @@
-import React, { useState } from 'react';
-
-
 const Header = () => {
  
-
   return (
     <nav className="bg-[var(--primary)]  w-[100vw] h-[12vh] top-0 fixed z-100">
       <div className=" mx-auto px-4 py-1 flex justify-between items-center">

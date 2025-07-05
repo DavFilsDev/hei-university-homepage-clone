@@ -2,11 +2,14 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--primary)] text-gray-300 pt-10">
-      <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-[var(--primary)] text-gray-300 pt-8">
+      <div className='max-w-5xl mx-auto'>
+        <img className='w-24' src="images/logo.png" alt="" />
+      </div>
+
+      <div className="mx-auto px-5 flex justify-between max-w-5xl">
         {/* Logo + Description */}
-        <div>
-          <div className="text-[var(--secondary)] text-3xl font-bold mb-4">HEI</div>
+        <div className='w-36'>
           <p className="text-sm">
             Formation habilitée par l’État suivant le système LMD
           </p>
@@ -38,20 +41,26 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-bold mb-2">Médias sociaux</h4>
           <div className="flex space-x-3 mt-2">
-            <a href="#" className="bg-[var(--primary)] text-[var(--secondary)] rounded-full p-2">
-              <FaFacebookF />
-            </a>
-            <a href="#" className="bg-[var(--primary) text-[var(--secondary)] rounded-full p-2">
-              <FaLinkedinIn />
-            </a>
-            <a href="#" className="bg-[var(--primary) text-[var(--secondary)] rounded-full p-2">
-              <FaInstagram />
-            </a>
+            <div className="bg-[var(--secondary)] rounded-full p-3">
+              <a href="#">
+                <FaFacebookF className="text-white" />
+              </a>
+            </div>
+            <div className="bg-[var(--secondary)] rounded-full p-3">
+              <a href="#">
+                <FaLinkedinIn className="text-white" />
+              </a>
+            </div>
+            <div className="bg-[var(--secondary)] rounded-full p-3">
+              <a href="#">
+                <FaInstagram className="text-white" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="text-center text-gray-400 text-sm py-2 bg-white">
+      <div className="mt-10 text-center text-gray-400 text-sm py-1 bg-white">
         &copy; HEI Madagascar
       </div>
     </footer>
