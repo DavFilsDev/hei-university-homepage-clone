@@ -6,12 +6,14 @@ import Apropos from '../components/Apropos';
 import Paterns from '../components/Paterns';
 import TechSection from '../components/TechSection';
 import ProgrammeSection from '../components/ProgrammeSection';
+import PedagogicTeam from '../components/PedagogicTeams';
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col gap-8">
+    <main className="flex flex-col">
       <Hero/>
       <Apropos/>
+      <PedagogicTeam />
       <Deboucher/>
       <Domaine/>
       <Admission/>
