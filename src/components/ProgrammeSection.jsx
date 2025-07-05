@@ -17,7 +17,7 @@ export default function ProgrammeSection() {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
         <img src={imgHeader} alt="Programme" className="w-full lg:w-1/2 rounded-xl" />
         <div className= "flex flex-col justify-between lg:w-1/2 h-60">
-          <h2 className="text-3xl font-bold text-primary mb-4 text-[var(--primary)]">Le programme pédagogique</h2>
+          <h2 className="font-garamond text-[40px] font-extrabold text-primary mb-4 text-[var(--primary)]">Le programme pédagogique</h2>
           <p className="text-[var(--primary)] mb-4 text-sm">
             Suivant le système LMD, jusqu’au Master, notre formation repose sur un programme pédagogique conçu en adéquation avec les attentes du marché.
             La formation est sanctionnée par un diplôme de Licence et de Master en Informatique reconnu par le MESupRes de Madagascar.
@@ -28,7 +28,7 @@ export default function ProgrammeSection() {
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
         {learnings.map((learning, index) => (
-          <div key={index} className="bg-yellow-100 pl-1 pr-2 py-3 rounded-lg text-left ">
+          <div key={index} className="bg-yellow-100 px-7 pr-2 py-3 rounded-lg text-left ">
             <p className="font-bold text-4xl text-[var(--secondary)] mb-2">25%</p>
             <p className="font-bold text-xl text-[var(--primary)] pr-3 mb-5">{learning}</p>
           </div>

@@ -48,7 +48,7 @@ export default function PedagogicTeam() {
 
     return (
         <section className="bg-[#6586C7] px-6 py-6 text-white flex flex-col items-center overflow-hidden">
-        <h2 className="text-4xl font-bold mb-4">L'équipe pédagogique</h2>
+        <h2 className="font-garamond text-[40px] font-extrabold mb-4">L'équipe pédagogique</h2>
         <p className="text-sm max-w-4xl mb-8 text-center">
             Notre équipe pédagogique se compose d’experts nationaux et internationaux de l’informatique, de la cybersécurité, de l’intelligence artificielle, dont un ingénieur chez Google. Ils sont passionnés par l’informatique et sont engagés vers l’excellence. Nous sommes conscients que cette équipe est la pierre angulaire de l’employabilité de nos étudiants, elle a été soigneusement sélectionnée.
         </p>
@@ -73,7 +73,7 @@ export default function PedagogicTeam() {
                         alt={member.name}
                         className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                         />
-                        <h3 className="font-bold text-lg text-[var(--primary)] text-center">{member.name}</h3>
+                        <h3 className="font-garamond font-bold text-lg text-[var(--primary)] text-center">{member.name}</h3>
                         <p className="text-xs text-[var(--primary)] text-center">{member.poste}</p>
                     </div>
                     ))}

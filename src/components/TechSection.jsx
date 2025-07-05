@@ -30,7 +30,7 @@ export default function TechSection() {
   return (
     <section className="bg-gray-100 py-16 px-6 text-[var(--primary)] max-w-4xl mx-auto">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-[var(--primary)] mb-4">
+        <h2 className="font-garamond text-[40px] font-extrabold text-[var(--primary)] mb-4">
           Les technos et langages utilisées
         </h2>
         <p className="max-w-4xl mx-auto text-sm text-[var(--primary)]">

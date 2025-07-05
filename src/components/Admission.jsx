@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 
@@ -7,7 +6,7 @@ const Admission = () => {
     <>
       <div className="flex flex-col w-[100vw] h-[80vh]  m-auto justify-center items-center bg-[#6889C0] pt-[5rem] ">
         <div className="pb-[10vh] gap-y-2 text-[15px] text-white flex flex-col justify-center items-center font-bold linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);">
-          <h1 className="text-center pb-5 text-[40px]">Admission</h1>
+          <h1 className="font-garamond text-center pb-5 text-[40px] font-extrabold">Admission</h1>
           <p className="text-[20px]">
             Ouverte aux bacheliers de toutes les séries, l’admission chez HEI se
             fait par test de niveau :
